@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+
+  src: url("../fonts/opensanslight.woff2") format("woff2"),
+    url("../fonts/opensanslight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+
+  src: url("../fonts/opensans.woff2") format("woff2"),
+    url("../fonts/opensans.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+
+  src: url("../fonts/opensansbold.woff2") format("woff2"),
+    url("../fonts/opensansbold.woff") format("woff");
+}
+
+@import "variables.less";
+@import "shared-file.less";
+
+/* Шапка сайта */
+@import "header-menu.less";
+
+/* Главная страница,index.html */
+@import "index/application.less";
+@import "index/specifications.less";
+@import "index/reviews.less";
+@import "index/rates.less";
+@import "index/contacts.less";
+
+/* Страница,foto.html */
+@import "foto/main-foto.less";
+@import "foto/photogallery.less";
+@import "foto/upload-your-photos.less";
+@import "foto/upload-form.less";
+
+/* Страница,form.html */
+@import "form/main-form.less";
+@import "form/contest.less";
+@import "form/progress.less";
+@import "form/contacts.less";
+@import "form/emotion.less";
+
+/* Подвал сайта */
+@import "page-footer.less";
